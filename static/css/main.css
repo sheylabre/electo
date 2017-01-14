@@ -33,13 +33,6 @@
     width: 100%;
 }
 
-.opacity-fd {
-    background-color: transparent;
-    z-index: 5;
-    background-color: rgba(255,0,0,0.2);
-    opacity: 0.5;
-}
-
 article, aside {
     margin-top: 5%;
 }
