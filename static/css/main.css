@@ -1,0 +1,97 @@
+.mg-bt {
+    margin-bottom: 5%;
+}
+.white {
+    color: white;
+}
+
+.black {
+    color: black;
+}
+
+.blue {
+    color: #0886B9;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+/*HEADER*/
+.logo {
+    width: 50%;
+}
+
+.mg-top-menu {
+    margin-top: 1%;
+}
+
+.fd {
+    background-image: url('../img/fondo.png');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.opacity-fd {
+    background-color: transparent;
+    z-index: 5;
+    background-color: rgba(255,0,0,0.2);
+    opacity: 0.5;
+}
+
+article, aside {
+    margin-top: 5%;
+}
+
+.mg-left {
+    margin-left: -5%;
+}
+
+.reloj {
+    padding-top: 20px;
+}
+
+#pd-button {
+    padding: 5% 41%;
+    background-color: #0886B9;
+    color: white;
+}
+
+#pd-button2 {
+    margin-top: 5%;
+    background-color: #0886B9;
+    color: white;
+    font-size: 150%;
+    margin-bottom: 8%;
+}
+
+.mg-frase {
+    margin-top: 3%;
+}
+
+#hr {
+    width: 10%;
+    border: 1px solid #0886B9;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+
+/*FOOTER*/
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.encabezado-img {
+    background-image: url('../img/edificio.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.mg-frase-footer {
+    margin: 4% 0;
+}
