@@ -4,6 +4,10 @@
     font-family: 'Lato', sans-serif !important;
 }
 
+.mg-left {
+    margin-left: -5%;
+}
+
 .mg-bt {
     margin-bottom: 5%;
 }
@@ -43,8 +47,13 @@ article, aside {
     margin-top: 5%;
 }
 
-.mg-left {
-    margin-left: -5%;
+.txt-principal {
+    font-size: 300%;
+}
+
+.contac {
+        margin: 5% 0;
+    font-weight: bold;
 }
 
 .reloj {
