@@ -43,8 +43,13 @@
     width: 100%;
 }
 
-article, aside {
+article {
     margin-top: 5%;
+}
+
+aside {
+    margin-top: 6%;
+    margin-bottom: 5%;
 }
 
 .txt-principal {
