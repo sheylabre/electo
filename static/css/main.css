@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,900');
+
+* {
+    font-family: 'Lato', sans-serif !important;
+}
+
 .mg-bt {
     margin-bottom: 5%;
 }
@@ -23,7 +29,7 @@
 }
 
 .mg-top-menu {
-    margin-top: 1%;
+    margin-top: 3%;
 }
 
 .fd {
@@ -63,6 +69,10 @@ article, aside {
     margin-top: 3%;
 }
 
+.hover:hover {
+    border: 1px solid #654B8D;
+}
+
 #hr {
     width: 10%;
     border: 1px solid #0886B9;
@@ -70,6 +80,10 @@ article, aside {
     margin-bottom: 3%;
 }
 
+.marco {
+    width: 50%;
+    margin-left: 27%;
+}
 
 /*FOOTER*/
 footer {

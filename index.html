@@ -1,7 +1,7 @@
 <DOCTYPE html>
     <head>
         <meta charset="utf-8">
-        <title>Contadores</title>
+        <title>electo</title>
         <link rel="stylesheet" href="static/css/main.css">
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <link rel="stylesheet" href="static/css/bootstrap.css">
@@ -71,25 +71,25 @@
                         </article>
                         <aside class="col-xs-12 col-sm-4 col-md-3 white">
                             <p>CONTÁCTANOS</p>
-                            <form class="form-horizontal">
+                            <form class="form-horizontal" id="form">
                                 <div class="form-group">
                                     <div class="col-sm-10">
-                                        <input type="email" class="form-control" id="inputEmail3" placeholder="Nombre y Apellido">
+                                        <input type="text" class="form-control" id="inputEmail3" name="nombre" placeholder="Nombre y Apellido">
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <div class="col-sm-10">
-                                        <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                                        <input type="email" class="form-control" id="inputEmail3" name="correo" placeholder="Email">
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <div class="col-sm-10">
-                                        <input type="number" class="form-control"  placeholder="Number">
+                                        <input type="number" class="form-control" name="num" placeholder="Telefono">
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <div class="col-sm-10">
-                                        <input type="number" class="form-control"  placeholder="RUC">
+                                        <input type="number" class="form-control" name="ruc" placeholder="RUC">
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -118,30 +118,34 @@
                     <p class="txt-center mg-frase ">Somos una empresa dedicada a brindar servicios de video vigilan electronica remota, desde nuestra <br>central de monitoreo operativo las 24 horas del día, los 365 días del año, ampliando de este modo el alcance de un CCTV <br> convencional; a travez del monitoreo remoto por fibras ópticas que ofrecen los siguientes beneficios: </p>
                 <hr id="hr">
                 </div>
-                <div class="col-sm-6 col-md-3 txt-center">
+                <div class="col-sm-6 col-md-3 txt-center hover">
                     <img src="static/img/police.png" alt="">
                     <p>SOPORTE Y SUPERVICION <br> AL PERSONAL DE <br> VIGILANCIA FISICA</p>
                 </div>
-                <div class="col-sm-6 col-md-3 txt-center">
+                <div class="col-sm-6 col-md-3 txt-center hover">
                     <img src="static/img/jeringa.png" alt="">
                     <p>INTERNET DEDICADA <br> A TRAVEZ DE FIBRA <br> OPTICA PR0PIA</p>
                 </div>
-                <div class="col-sm-6 col-md-3 txt-center">
+                <div class="col-sm-6 col-md-3 txt-center hover">
                     <img src="static/img/seguro.png" alt="">
                     <p>CENTRAL REMOTA <br> PROTEGIA EN UN <br> EVENTO DELICTIVO</p>
                 </div>
-                <div class="col-sm-6 col-md-3 txt-center">
+                <div class="col-sm-6 col-md-3 txt-center hover">
                     <img src="static/img/ojo.png" alt="">
                     <p>MONITOREO <br>  DE CAMARAS LAS 24 <br> HORAS</p>
                 </div>
                 <div class="col-md-12 mg-bt">
                     <div class="col-sm-6 col-md-6 txt-center">
-                        <img src="static/img/lin.png" alt="">
-                        <p>PROTOCOLO DE ALERTA <br> EN INCIDENTE QUE ELEVA <br> LA TASA DE DISUASION</p>
+                        <div class="marco hover">
+                            <img src="static/img/lin.png" alt="">
+                            <p>PROTOCOLO DE ALERTA <br> EN INCIDENTE QUE ELEVA <br> LA TASA DE DISUASION</p>
+                        </div>
                     </div>
-                    <div class="col-sm-6 col-md-6 txt-center">
-                        <img src="static/img/mano.png" alt="">
-                        <p>TERCERIZACION DE <br> SUPERVISION DE PROCESOS <br> INTERNOS Y PERSONAL DE LA <br> EMPRESA-CLIENTE</p>
+                    <div class="col-sm-6 col-md-6 txt-center ">
+                        <div class="marco hover">
+                            <img src="static/img/mano.png" alt="">
+                            <p>TERCERIZACION DE <br> SUPERVISION DE PROCESOS <br> INTERNOS Y PERSONAL DE LA <br> EMPRESA-CLIENTE</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -156,6 +160,7 @@
             </div>
         </footer>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" type="text/javascript"></script>
+    <script src="static/js/jquery.validate.min.js" type="text/javascript"></script>
     <script src="static/js/bootstrap.js" type="text/javascript"></script>
     <script src="static/js/app.js" type="text/javascript"></script>
     </body>
